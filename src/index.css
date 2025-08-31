@@ -1,0 +1,81 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-color:#242424;
+  --bg-color2:#1a1a1a;
+  --bg-color3:black;
+  --light-bg-color:#565656;
+  --primary-text:#9929EA;
+  --secondary-text:#fff;
+
+  transition: background 1s, color 1s;
+}
+
+.lightmode{
+  --bg-color:#ffffff;
+  --bg-color2:#c4bec8;
+  --bg-color3:rgb(250, 250, 250);
+  --light-bg-color:#d5d5d5;
+  --primary-text:#9929EA;
+  --secondary-text:#000000;
+
+  background-color: var(--bg-color);
+  transition: background 1s, color 1s;
+  
+
+}
+* {
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+
+button {
+  border-radius: 0.6rem;
+  border: 1px solid transparent;
+  padding: 0 1rem;
+  font-size: 1rem;
+  
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    
+    background-color: #ffffff;
+  }
+ 
+  button {
+    background-color: #f9f9f9;
+  }
+}

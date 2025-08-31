@@ -1,0 +1,25 @@
+@media(max-width:1000px) {
+    .search-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-container-mobile{
+        display: flex;
+        justify-content: center;
+        width: 20rem;
+        height: auto;
+        background-color: var(--light-bg-color);
+        border-radius: 0.5rem;
+        padding: 1rem;
+
+    }
+
+    .search-mobile{
+        width: 100%;
+        border: none;
+    }
+    
+}
+

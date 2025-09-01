@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "../assets/css/gameCard.css"
+import "../assets/css/GameCard.css"
 import { Link } from 'react-router-dom'
 import { FaRegHeart , FaHeart } from "react-icons/fa";
 

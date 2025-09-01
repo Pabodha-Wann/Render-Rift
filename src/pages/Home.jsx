@@ -33,7 +33,7 @@ useEffect(()=>{
               <h1 className='title'>Popular Games</h1>
                 <div className='card-grid'>
 
-                    {game.map((game)=>
+                    {game && game.map((game)=>
                     {
                       return (
                       

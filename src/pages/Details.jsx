@@ -111,7 +111,7 @@ function Details(props) {
                 gameDetails.parent_platforms && (
                   <div className='tags stores'>
                   <strong>Available on:</strong> 
-                  {gameDetails.stores.map(g => 
+                  {gameDetails.stores && gameDetails.stores.map(g => 
                       <a href={`https://${g.store.domain}`} target='_blank'><p className='tag store'>{g.store.name}</p></a> 
                   )}
                   </div>
@@ -121,7 +121,7 @@ function Details(props) {
 
               {
                 gameDetails.parent_platforms && (
-                  <p><strong>Tags: </strong> {gameDetails.tags.map(g => g.name).join(", ")}</p>
+                  <p><strong>Tags: </strong> {gameDetails.tags && gameDetails.tags.map(g => g.name).join(", ")}</p>
                 )
               }
             </div>

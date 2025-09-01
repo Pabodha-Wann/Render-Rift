@@ -1,5 +1,5 @@
-const API_KEY="5892055812e34ac7a11f0b8364f2695a";
-const BASE_URL="https://api.rawg.io/api";
+const API_KEY=import.meta.env.VITE_API_KEY;
+const BASE_URL=import.meta.env.BASE_URL;
 
 export const fetchsearch = async(query)=>{
 

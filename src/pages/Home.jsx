@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import GameCard from '../components/GameCard'
 import "../assets/css/Home.css"
 import Banner from '../components/Banner';
-import { fetchPopularGames } from '../RWGapi';
+import { fetchPopularGames } from '../RAWGapi';
 import Loader from '../components/Loader';
 
 

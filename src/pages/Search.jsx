@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom"
 import "../assets/css/Header.css"
 import "../assets/css/Search.css"
 import GameCard from "../components/GameCard"
-import { fetchsearch } from '../RWGapi';
+import { fetchsearch } from '../RAWGapi';
 import { IoIosSearch } from "react-icons/io";
 import Loader from '../components/Loader'
 

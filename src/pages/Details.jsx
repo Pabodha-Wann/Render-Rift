@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "../assets/css/Details.css"
 import { useParams } from "react-router-dom"
-import { fetchDetails } from '../RWGapi';
+import { fetchDetails } from '../RAWGapi';
 import Loader from '../components/Loader';
 import { FaRegHeart , FaHeart } from "react-icons/fa";
 

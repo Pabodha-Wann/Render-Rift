@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "../assets/css/Banner.css"
 import { CiStar } from "react-icons/ci";
-import { fetchBanner } from '../RWGapi';
+import { fetchBanner } from '../RAWGapi';
 function Banner() {
 
   const [bannerGame,setbannerGame]=useState([]);
